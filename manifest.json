@@ -1,0 +1,19 @@
+{
+    "name": "Current Weather",
+    "version": "1.0.0",
+    "description": "Shows weather at your current location",
+    "manifest_version": 3,
+    "permissions":[
+        "geolocation"
+    ],
+    "icons":{
+        "16": "cloud.png",
+        "48": "cloud.png",
+        "128": "cloud.png"
+    },
+    "author": "Lizaveta Yakimenka",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Current Weather"
+    }
+}
