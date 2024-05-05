@@ -1,0 +1,191 @@
+html {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+      sans-serif;
+    text-align: center;
+    color: white;
+  }
+  
+  body {
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .container{
+    width: 430px;
+    height: 25vh;
+  }
+
+  h1{
+    font-weight: 100;
+    font-size: 40px;
+  }
+
+  h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  p{
+    align-items: center;
+    justify-content: center;
+  }
+
+  body[category="Clouds"]{
+    background-image: url('https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  body[category="Clear"]{
+    background-image: url('https://i.pinimg.com/originals/48/b0/1a/48b01a4d7f2627a2b51043f8e2965994.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  body[category="Thunderstorm"]{
+    background-image: url('https://i.pinimg.com/originals/dc/7b/9b/dc7b9b31d491c5b44174436cddf0411f.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  body[category="Rain"]{
+    background-image: url('https://i.pinimg.com/originals/71/c2/7a/71c27a53ca282143b6c77e63e8544264.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  body[category="Snow"]{
+    background-image: url('https://i.pinimg.com/originals/60/a8/33/60a8338f5f6e891b4f4e0e1b48982627.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Mist"]{
+    background-image: url('https://i.pinimg.com/originals/10/ff/4f/10ff4f98a494e390e07b1a0e9eefa4be.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Drizzle"]{
+    background-image: url('https://i.pinimg.com/originals/37/75/0f/37750f604243c92bce146136cfe8e54a.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Smoke"]{
+    background-image: url('https://i.pinimg.com/originals/03/53/cd/0353cdf9b3b43ea8e16506cde3ec94ef.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Haze"]{
+    background-image: url('https://i.pinimg.com/originals/df/14/82/df1482cfa1114501f8dd2f5cd1d2ef12.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Dust"]{
+    background-image: url('https://i.pinimg.com/originals/76/c1/a3/76c1a31c991700d1686e4273f58342f8.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Fog"]{
+    background-image: url('https://i.pinimg.com/originals/1d/1b/33/1d1b336e40de7fd0689afc6561f4e92f.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Sand"]{
+    background-image: url('https://i.pinimg.com/originals/88/4b/0d/884b0d42ed41c6426041ebed4ecd32a2.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Ash"]{
+    background-image: url('https://i.pinimg.com/originals/0b/69/f9/0b69f9f32f7018404a509042a7fc1425.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Squall"]{
+    background-image: url('https://i.pinimg.com/originals/53/56/61/53566121f6ead23d0dc31d8013554b72.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  body[category="Tornado"]{
+    background-image: url('https://i.pinimg.com/originals/c9/78/66/c97866f2abd949a736c723cf98143866.gif');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  .load-ring {
+    color: #D6EAF8;
+    margin-top: 30px;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  .load-ring,
+  .load-ring:after {
+    box-sizing: border-box;
+  }
+  .load-ring {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .load-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6.4px solid currentColor;
+    border-color: currentColor transparent currentColor transparent;
+    animation: load-ring 1.2s linear infinite;
+  }
+  @keyframes load-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
